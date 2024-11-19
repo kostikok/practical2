@@ -1,0 +1,17 @@
+﻿<Window x:Class="Pract2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pract2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Translate" Content="Переводчик" HorizontalAlignment="Left" Height="60" Margin="120,334,0,0" VerticalAlignment="Top" Width="115" Click="Translate_Click" FontWeight="Bold" Background="#FFA5DEF1"/>
+        <Button Content="Калькулятор" Height="60" Margin="269,334,415,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FFA5DEF1" Click="Button_Click"/>
+        <Button x:Name="Interval" Content="Промежутки" Height="60" Margin="415,334,269,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FFA5DEF1" Click="Interval_Click"/>
+        <Button Content="Пароль" Height="60" Margin="564,334,120,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FFA5DEF1" Click="Button_Click_1"/>
+        <Label Content="Выберите программу" HorizontalAlignment="Left" Height="60" Margin="269,157,0,0" VerticalAlignment="Top" Width="336" FontSize="22" FontWeight="Bold" FontFamily="Arial Black"/>
+
+    </Grid>
+</Window>
